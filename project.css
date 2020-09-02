@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: lightskyblue;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.section__title--projects{
+    align-items: center;
+}
+
+.navbar__header{
+    color: grey;
+}
+
+.navbar__link{
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.navbar{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+    background-color: pink;
+    margin-left: 0 1rem
+
+}
+.navbar__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    
+     }
+.social-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.heading{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-right: 30%
+    color: darkgreen;
+}
+.profile{
+    border: 2px lightgrey;
+    width: 100px;
+    padding: 8px
+}
+.profile__image{
+    width:30rem;
+    object-fit: fill;
+}
+span{
+    font-style: italic;
+}
